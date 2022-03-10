@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Tracking App</title>
+</head>
+<body style="background-color: hsl(210, 12%, 17%); color:hsl(222, 5%, 58%)">
+    <h1 style="text-align: center; color:hsl(225, 5%, 83%); font-size: 8vmin; margin-block: 0em;">
+        Time Tracking App - Api
+    </h1>
+    <main style="margin-inline:auto; width: 100%; display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-around; align-items: center;">
+        <div style="font-size: 3.5vmin; margin-bottom: 1em;">
+            <div style="color:hsl(169, 63%, 46%); letter-spacing: 0.05em; margin-bottom: 0.2em;">
+                Resources:
+            </div>
+                <div>
+                    Daily Raw Data <span style="color:hsl(225, 5%, 83%)">/daily-raw-data/str:date/</span>
+                </div>
+                <div> 
+                    Daily Summary: <span style="color:hsl(225, 5%, 83%);">/daily-summary/str:date/</span>
+                </div>
+                <div>
+                    Activity Summary: <span style="color:hsl(225, 5%, 83%);">/activity-summary/str:name/</span>
+                </div>
+                <div>
+                    Daily Activity Entries <span style="color:hsl(225, 5%, 83%)">/activity/str:name/str:date/</span>
+                </div>
+                <div>
+                    Total Time Summary <span style="color:hsl(225, 5%, 83%)">/total-time/str:from_date/str:to_date/</span>
+                </div>         
+        </div>
+        <div style="width: 55vmin; flex-wrap: wrap;"><img style="display: block" src="/static/timer.svg"/></div>
+    </main>
+    <footer style="position: absolute; bottom: 0.5em; left: 50vw; transform: translateX(-50%);">
+        <a style="font-size: 3.5vmin; color:hsl(169, 63%, 46%); text-decoration: none;" href="https://github.com/Cyki89">
+           https://github.com/Cyki89
+        </a>
+    </footer>
+</body>
+</html>
